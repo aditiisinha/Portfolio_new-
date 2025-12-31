@@ -36,7 +36,7 @@ const projects = [
       "Architected a secure two-tier e-commerce platform with containerized React frontend and Node.js/Express backend. Automated AWS deployment with Terraform and Jenkins CI/CD.",
     image: project2,
     tags: ["React.js", "Node.js", "Docker", "AWS", "Terraform", "Jenkins"],
-    demoUrl: "#",
+    demoUrl: null,
     githubUrl: "https://github.com/aditiisinha/E-Retail-Managment-Platfform",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
       "Engineered a decentralized lending platform on Ethereum with real-time dashboards and an NFT marketplace. Integrated MetaMask for secure cryptocurrency transactions.",
     image: project1,
     tags: ["React.js", "Solidity", "Web3.js", "MongoDB", "Hardhat"],
-    demoUrl: "#",
+    demoUrl: null,
     githubUrl: "https://github.com/aditiisinha/DeFi-Lending",
   },
   {
@@ -155,14 +155,16 @@ export const ProjectsSection = () => {
                     <Github className="h-5 w-5" />
                     Code
                   </a>
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    className="flex items-center gap-2 text-sm font-semibold hover:text-primary transition-colors"
-                  >
-                    <ExternalLink className="h-5 w-5" />
-                    Live Demo
-                  </a>
+                  {project.demoUrl && (
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      className="flex items-center gap-2 text-sm font-semibold hover:text-primary transition-colors"
+                    >
+                      <ExternalLink className="h-5 w-5" />
+                      Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
