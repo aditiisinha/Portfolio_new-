@@ -60,33 +60,33 @@ export const ContactSection = () => {
           <div className="space-y-8">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-purple-600 rounded-xl opacity-50 blur group-hover:opacity-100 transition duration-500"></div>
-              <div className="relative bg-card p-4 sm:p-6 rounded-xl border border-border/50 flex items-center gap-4 sm:gap-6 overflow-hidden">
-                <div className="bg-primary/10 p-3 sm:p-4 rounded-full group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
+              <div className="relative bg-card p-4 sm:p-6 rounded-xl border border-border/50 flex items-center gap-3 sm:gap-6 overflow-hidden">
+                <div className="bg-primary/10 p-2.5 sm:p-4 rounded-full group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
                   <Mail className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h4 className="text-xs sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Email Me</h4>
-                  <a href="mailto:aditisinha778@gmail.com" className="text-base sm:text-lg md:text-xl font-bold hover:text-primary transition-colors break-all block">
+                  <h4 className="text-[10px] sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Email Me</h4>
+                  <a href="mailto:aditisinha778@gmail.com" className="text-sm sm:text-lg md:text-xl font-bold hover:text-primary transition-colors break-all block overflow-hidden">
                     aditisinha778@gmail.com
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
               {/* Socials */}
-              <a href="https://www.linkedin.com/in/aditi-sinha-63404a202/" target="_blank" className="group bg-card hover:bg-card/80 border border-border/50 p-6 rounded-xl flex flex-col items-center justify-center gap-4 transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
-                <div className="p-3 bg-blue-500/10 rounded-full text-blue-500 group-hover:scale-110 transition-transform">
-                  <Linkedin className="h-6 w-6" />
+              <a href="https://www.linkedin.com/in/aditi-sinha-63404a202/" target="_blank" className="group bg-card hover:bg-card/80 border border-border/50 p-4 sm:p-6 rounded-xl flex flex-col items-center justify-center gap-2 sm:gap-4 transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 text-center">
+                <div className="p-2 sm:p-3 bg-blue-500/10 rounded-full text-blue-500 group-hover:scale-110 transition-transform">
+                  <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
                 </div>
-                <span className="font-semibold">LinkedIn</span>
+                <span className="text-xs sm:text-base font-semibold">LinkedIn</span>
               </a>
 
-              <a href="https://github.com/aditiisinha" target="_blank" className="group bg-card hover:bg-card/80 border border-border/50 p-6 rounded-xl flex flex-col items-center justify-center gap-4 transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
-                <div className="p-3 bg-gray-500/10 rounded-full text-foreground group-hover:scale-110 transition-transform">
-                  <Github className="h-6 w-6" />
+              <a href="https://github.com/aditiisinha" target="_blank" className="group bg-card hover:bg-card/80 border border-border/50 p-4 sm:p-6 rounded-xl flex flex-col items-center justify-center gap-2 sm:gap-4 transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 text-center">
+                <div className="p-2 sm:p-3 bg-gray-500/10 rounded-full text-foreground group-hover:scale-110 transition-transform">
+                  <Github className="h-5 w-5 sm:h-6 sm:w-6" />
                 </div>
-                <span className="font-semibold">GitHub</span>
+                <span className="text-xs sm:text-base font-semibold">GitHub</span>
               </a>
             </div>
 
@@ -103,7 +103,7 @@ export const ContactSection = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-br from-primary/30 to-purple-600/30 rounded-2xl blur-xl opacity-20" />
 
-            <div className="relative bg-card/60 backdrop-blur-xl p-8 rounded-2xl border border-border shadow-2xl">
+            <div className="relative bg-card/60 backdrop-blur-xl p-5 sm:p-8 rounded-2xl border border-border shadow-2xl">
               <div className="flex items-center gap-3 mb-8">
                 <div className="p-2 bg-primary/10 rounded-lg">
                   <MessageSquare className="h-5 w-5 text-primary" />
