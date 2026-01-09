@@ -16,7 +16,7 @@ const projects = [
       "Built a full-stack AI SaaS platform that enables secure PDF uploads and converts them into concise, visually appealing, and interactive summaries. Features role-based dashboards and optimized text processing.",
     image: summarium,
     tags: ["Next.js", "React 19", "TypeScript", "Tailwind", "OpenAI", "Gemini", "LangChain"],
-    demoUrl: "#",
+    demoUrl: "https://pdf-summarizer-eta.vercel.app/",
     githubUrl: "https://github.com/aditiisinha/pdf_summarizer",
   },
   {
