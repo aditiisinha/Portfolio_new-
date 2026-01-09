@@ -82,7 +82,7 @@ Build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and
 ### Clone and Run
 
 ```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
+git clone 
 cd react-tailwind-portfolio
 npm install
 npm run dev
