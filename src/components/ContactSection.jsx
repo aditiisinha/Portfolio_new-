@@ -60,13 +60,13 @@ export const ContactSection = () => {
           <div className="space-y-8">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-purple-600 rounded-xl opacity-50 blur group-hover:opacity-100 transition duration-500"></div>
-              <div className="relative bg-card p-6 rounded-xl border border-border/50 flex items-center gap-6">
-                <div className="bg-primary/10 p-4 rounded-full group-hover:scale-110 transition-transform duration-300">
-                  <Mail className="h-6 w-6 text-primary" />
+              <div className="relative bg-card p-4 sm:p-6 rounded-xl border border-border/50 flex items-center gap-4 sm:gap-6 overflow-hidden">
+                <div className="bg-primary/10 p-3 sm:p-4 rounded-full group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
+                  <Mail className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                 </div>
-                <div>
-                  <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Email Me</h4>
-                  <a href="mailto:aditisinha778@gmail.com" className="text-lg md:text-xl font-bold hover:text-primary transition-colors">
+                <div className="min-w-0 flex-1">
+                  <h4 className="text-xs sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Email Me</h4>
+                  <a href="mailto:aditisinha778@gmail.com" className="text-base sm:text-lg md:text-xl font-bold hover:text-primary transition-colors break-all block">
                     aditisinha778@gmail.com
                   </a>
                 </div>
