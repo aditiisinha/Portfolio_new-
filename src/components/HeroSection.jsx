@@ -1,4 +1,5 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, FileText } from "lucide-react";
+import resume from "../assets/resume/AditiSinha2_1.pdf";
 
 export const HeroSection = () => {
   return (
@@ -21,15 +22,24 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-          I am a Full-Stack Web Developer with expertise in creating scalable, efficient, and user-focused solutions. 
-          Alongside web development, I bring hands-on experience in DevOps for seamless deployment and infrastructure management, 
-          as well as Blockchain technologies, which enable secure and future-ready applications. 
-          My goal is to craft solutions that combine innovation with reliability.
+            I am a Full-Stack Web Developer with expertise in creating scalable, efficient, and user-focused solutions.
+            Alongside web development, I bring hands-on experience in DevOps for seamless deployment and infrastructure management,
+            as well as Blockchain technologies, which enable secure and future-ready applications.
+            My goal is to craft solutions that combine innovation with reliability.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#projects" className="cosmic-button">
               View My Work
+            </a>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-full border border-primary/50 text-foreground hover:bg-primary/10 transition-all duration-300 flex items-center gap-2"
+            >
+              <FileText size={18} />
+              Resume
             </a>
           </div>
         </div>

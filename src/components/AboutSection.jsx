@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import resume from "../assets/resume/AditiSinha2_1.pdf";
 
 export const AboutSection = () => {
   return (
@@ -12,22 +13,22 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-            Passionate web developer and DevOps enthusiast with strong coding skills.
+              Passionate web developer and DevOps enthusiast with strong coding skills.
             </h3>
 
             <p className="text-muted-foreground">
-            I am Aditi Sinha, a B.Tech graduate with a specialization in Computer Science and Information Technology from ITER, Siksha 'O' Anusandhan, 
-            with an overall CGPA of 8.6 (2021-2025). 
-            I possess a strong academic foundation and a passion for innovation, focusing on creating solutions that are both practical and impactful.
+              I am Aditi Sinha, a B.Tech graduate with a specialization in Computer Science and Information Technology from ITER, Siksha 'O' Anusandhan,
+              with an overall CGPA of 8.6 (2021-2025).
+              I possess a strong academic foundation and a passion for innovation, focusing on creating solutions that are both practical and impactful.
             </p>
 
             <p className="text-muted-foreground">
-            My expertise encompasses <strong>Full-Stack Web Development</strong>, 
-<strong> DevOps</strong>, and <strong>Blockchain</strong>, backed by a strong grasp of 
-<strong> Data Structures and Algorithms</strong>. I specialize in creating 
-<strong> responsive</strong>, <strong>accessible</strong>, and <strong>scalable</strong> applications, 
-while ensuring <strong>reliable deployments</strong>. Additionally, I actively explore 
-<strong> cutting-edge technologies</strong> to remain at the forefront of the ever-evolving tech landscape.
+              My expertise encompasses <strong>Full-Stack Web Development</strong>,
+              <strong> DevOps</strong>, and <strong>Blockchain</strong>, backed by a strong grasp of
+              <strong> Data Structures and Algorithms</strong>. I specialize in creating
+              <strong> responsive</strong>, <strong>accessible</strong>, and <strong>scalable</strong> applications,
+              while ensuring <strong>reliable deployments</strong>. Additionally, I actively explore
+              <strong> cutting-edge technologies</strong> to remain at the forefront of the ever-evolving tech landscape.
 
             </p>
 
@@ -38,8 +39,8 @@ while ensuring <strong>reliable deployments</strong>. Additionally, I actively e
               </a>
 
               <a
-                href="/Aditi_Sinha_Resume1.pdf"
-                download="Aditi_Sinha_Resume1.pdf"
+                href={resume}
+                download="Aditi_Sinha_Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -56,7 +57,7 @@ while ensuring <strong>reliable deployments</strong>. Additionally, I actively e
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                  Developing responsive websites and web applications using modern frameworks.
+                    Developing responsive websites and web applications using modern frameworks.
                   </p>
                 </div>
               </div>
@@ -69,7 +70,7 @@ while ensuring <strong>reliable deployments</strong>. Additionally, I actively e
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">DevOps</h4>
                   <p className="text-muted-foreground">
-                  Facilitating seamless deployment, automation, and robust infrastructure to support scalable applications.
+                    Facilitating seamless deployment, automation, and robust infrastructure to support scalable applications.
                   </p>
                 </div>
               </div>
@@ -83,7 +84,7 @@ while ensuring <strong>reliable deployments</strong>. Additionally, I actively e
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Blockchain</h4>
                   <p className="text-muted-foreground">
-                   Developing secure, decentralized solutions leveraging blockchain technology.
+                    Developing secure, decentralized solutions leveraging blockchain technology.
                   </p>
                 </div>
               </div>
