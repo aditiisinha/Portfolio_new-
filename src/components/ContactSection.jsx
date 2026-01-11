@@ -50,9 +50,7 @@ export const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
             Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-600">Touch</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-          </p>
+
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
